@@ -2,36 +2,40 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/tic_tac_toe.css" rel="stylesheet" type="text/css">
+  <link href="css/sweetalert.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/sweetalert.min.js"></script>
   <script src="js/tic_tac_toe.js"></script>
 
   <title>Knots and Crosses</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Knots and Crosses</h1>
+
+  <div class="flexbox-container">
     <div class="row top">
-      <div class="col_md_12">
-      </div>
+    <h1>Knots and Crosses</h1>
+      <h2>It is now
+        <span class = "turn">
+        </span>'s turn!</h2>
     </div>
     <div class="row game">
       <div class="col_md_12">
         <table id="grid">
-          <row id=rowA>
+          <row id="rowA">
           <tr>
             <td class= "cell" id="field0"></td>
             <td class= "cell" id="field1"></td>
             <td class= "cell" id="field2"></td>
           </tr>
         </row>
-        <row id=rowB>
+        <row id="rowB">
           <tr>
             <td class= "cell" id="field3"></td>
             <td class= "cell" id="field4"></td>
             <td class= "cell" id="field5"></td>
           </tr>
         </row>
-        <row id=rowC>
+        <row id="rowC">
           <tr>
             <td class= "cell" id="field6"></td>
             <td class= "cell" id="field7"></td>
@@ -39,11 +43,8 @@
           </tr>
         </row>
         </table>
-
+        </div>
       </div>
     </div>
-
-</div>
-
-</body>
+  </body>
 </html>

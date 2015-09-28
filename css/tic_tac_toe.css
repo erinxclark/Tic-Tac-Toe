@@ -1,28 +1,28 @@
 body {
   background-color: black;
-
 }
 
-.game {
-
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .grid {
   border: solid black 3px;
-  height: 600px;
-  width: 600px;
+  height: 100px;
+  width: 100px;
 }
 
 .cell {
   border: solid black 3px;
   background-color: white;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 .top {
@@ -31,4 +31,14 @@ img {
 
 .container {
   align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
 }
